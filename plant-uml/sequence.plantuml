@@ -1,0 +1,8 @@
+@startuml class
+    class Host{
+        -timeout:String
+        getter and setter
+    }
+
+    Host -- Host1
+@enduml
